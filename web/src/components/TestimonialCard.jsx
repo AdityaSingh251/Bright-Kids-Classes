@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../components/ui/card';
 import { Star, Quote } from 'lucide-react';
 
 const TestimonialCard = ({ quote, parentName, childName, rating = 5, color = 'pink', index = 0 }) => {
