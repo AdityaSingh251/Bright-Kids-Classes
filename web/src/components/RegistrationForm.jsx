@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { MessageCircle, Sparkles, Star, Loader2, CheckCircle2, UserPlus } from 'lucide-react';
 import { useConfetti } from '../hooks/useConfetti';
 import { toast } from 'sonner';
-import pb from '../lib/pocketbaseClient.js';
+import pb from '../libs/pocketbaseClient.js';
 
 const RegistrationForm = () => {
   const { celebrate } = useConfetti();
