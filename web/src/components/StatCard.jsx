@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../components/ui/card';
 
 const StatCard = ({ icon: Icon, value, label, color = 'pink', index = 0 }) => {
   const colorStyles = {
