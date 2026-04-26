@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../components/ui/card';
 import { Check, Star, Heart, Award, Sparkles, Smile, BookOpen, Target } from 'lucide-react';
 
 const FeatureCard = ({ iconType = 'check', title, description, color = 'pink', index = 0 }) => {
