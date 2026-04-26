@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Textarea } from '../components/ui/textarea';
+import { Label } from '../components/ui/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { MessageCircle, Sparkles, Star, Loader2, CheckCircle2, UserPlus } from 'lucide-react';
-import { useConfetti } from '@/hooks/useConfetti';
+import { useConfetti } from '../hooks/useConfetti';
 import { toast } from 'sonner';
-import pb from '@/lib/pocketbaseClient.js';
+import pb from '../lib/pocketbaseClient.js';
 
 const RegistrationForm = () => {
   const { celebrate } = useConfetti();
