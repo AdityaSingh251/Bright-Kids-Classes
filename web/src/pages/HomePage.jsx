@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 import { ArrowRight, Star, TrendingUp, Users, Award, Clock, CheckCircle2, Sparkles, MessageCircle, BookOpen, Phone } from 'lucide-react';
-import Header from '@/components/Header.jsx';
-import Footer from '@/components/Footer.jsx';
-import FeatureCard from '@/components/FeatureCard.jsx';
-import SubjectCard from '@/components/SubjectCard.jsx';
-import TestimonialCard from '@/components/TestimonialCard.jsx';
-import StatCard from '@/components/StatCard.jsx';
-import RegistrationForm from '@/components/RegistrationForm.jsx';
-import FAQ from '@/components/FAQ.jsx';
-import FreeDemo from '@/components/FreeDemo.jsx';
+import Header from '../components/Header.jsx';
+import Footer from '../components/Footer.jsx';
+import FeatureCard from '../components/FeatureCard.jsx';
+import SubjectCard from '../components/SubjectCard.jsx';
+import TestimonialCard from '../components/TestimonialCard.jsx';
+import StatCard from '../components/StatCard.jsx';
+import RegistrationForm from '../components/RegistrationForm.jsx';
+import FAQ from '../components/FAQ.jsx';
+import FreeDemo from '../components/FreeDemo.jsx';
 
 const HomePage = () => {
   const [isDemoOpen, setIsDemoOpen] = useState(false);
